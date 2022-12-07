@@ -1,7 +1,7 @@
 <script>
-export default{
-    data(){
-        return{
+export default {
+    data() {
+        return {
             msg: "La mia prima app con Vite!",
         }
     }
@@ -10,17 +10,18 @@ export default{
 
 <template>
     <div id="title">
-        <h1>{{msg}}</h1> 
+        <h1>{{ msg }}</h1>
     </div>
- 
+
 </template>
 
 <style scoped>
 h1 {
     font-size: 30px;
-  color: blue;
+    color: blue;
 }
-#title{
+
+#title {
     width: 100%;
     height: 100px;
     display: flex;

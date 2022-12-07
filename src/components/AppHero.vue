@@ -1,10 +1,5 @@
 <script>
-export default{
-    data(){
-        return{
-            saluto: "ciaoo",
-        }
-    }
+export default {
 }
 </script>
 
@@ -15,10 +10,11 @@ export default{
 
 <style scoped>
 h1 {
-    font-size: 30px;
+  font-size: 30px;
   color: red;
 }
-#jumbotron{
+
+#jumbotron {
   width: 100%;
   height: 200px;
 }
